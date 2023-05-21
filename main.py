@@ -39,7 +39,7 @@ def update_screen(screen,cells,size,with_progress = False):
 def main():
 
     pygame.init()
-    screen = pygame.display.set_mode((800,600))
+    screen = pygame.display.set_mode((800,600)) #simply the resolution.
 
     cells = np.zeros((60,80))
 
